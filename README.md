@@ -94,3 +94,29 @@ python "credit card fraud.py"
 ```
 python credit_approval_with_tests.py
 ```
+
+This will :-
+
+- Train the model
+- Print evaluation metrics
+- Run unit tests
+
+
+## Example Prediction
+
+```
+new_application = np.zeros(X.shape[1])
+result = predict_approval(new_application)
+print(result)  # Output: 0 (Not Approved) or 1 (Approved)
+```
+
+
+## Testing
+
+The project includes automated tests to ensure :-
+
+- Valid predictions return correct output (0 or 1)
+- Errors are raised for invalid input shapes
+- No missing values remain after preprocessing
+- Model meets minimum performance thresholds
+- Training completes within acceptable time
