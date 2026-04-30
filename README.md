@@ -120,3 +120,32 @@ The project includes automated tests to ensure :-
 - No missing values remain after preprocessing
 - Model meets minimum performance thresholds
 - Training completes within acceptable time
+
+
+## Future Improvements
+
+- Hyperparameter tuning for better performance
+- Use advanced models (XGBoost, Neural Networks)
+- Add feature importance visualization
+- Deploy as a web app (Flask/Streamlit)
+- Handle imbalanced datasets using SMOTE
+
+
+## Contributing
+
+Contributions are welcome!
+
+Feel free to fork this repository and submit a pull request.
+
+
+## License
+
+This project is open-source and available under the MIT License.
+
+
+## Author
+
+Abhinav Dixit
+
+Python Developer | Data & ML Enthusiast
+
